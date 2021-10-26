@@ -65,4 +65,34 @@ body {
     /* width: 50vw; */
     margin: auto;
   }
+  footer {
+    background-color: #41a0466c;
+    padding-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1vw;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    color: white;
+    /* background-color: black; */
+  }
+  .footer-link {
+    border-left: 1px solid;
+    padding-right: 0.5vw;
+    margin-left: 0.5vw;
+  }
+  .social-link-image {
+    width: 2vw;
+  }
+  .find-us {
+    font-size: 1.2vw;
+  }
+  
   
