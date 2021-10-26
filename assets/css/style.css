@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Monaco, "Open Sans", sans-serif;
+    background-color: #bed4b8c9;
+  }
+  .links {
+    float: right;
+    position: fixed;
+    top: 4vh;
+    right: 5px;
+  }
+  .nav-link {
+    color: #0f0d0d;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 7vw;
+    display: inline-block;
+    text-align: center;
+    border: 2px dotted #000;
+    background: linear-gradient(to top, #d1ebd4, #d0f1d5);
+  }
+  
+  .nav-link-selected {
+    /* background: linear-gradient(to top, #3b9e47, #058018); */
+    border: 4px dotted #4d1919;
+  }
+  .nav-link:hover {
+    background: linear-gradient(to top, #1e241e, #2f3f31);
+    color: white;
+  }
+  
+  .link-span {
+    width: 10vw;
+  }
+  .logo-image {
+    width: 10vw;
+    border-radius: 50%;
+    left: 1vw;
+    position: fixed;
+    /* padding: 4px; */
+    top: 0.5vh;
+  }
+  .spacer {
+    clear: both;
+  }
+  .logo-title {
+    display: inline-block;
+    /* padding: 10px; */
+    position: fixed;
+    top: 2vh;
+    left: 12vw;
+    color: #1f2c04;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    /* width: 40vw; */
+  }
+  .header-image {
+    height: 14vh;
+    background-color: #41a0466c;
+    background-position: right;
+    /* width: 50vw; */
+    margin: auto;
+  }
+  
