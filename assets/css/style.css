@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: Monaco, "Open Sans", sans-serif;
+    background-color: #bed4b8c9;
+  }
+  .header-area {
+    height: 12vh;
+    background:   linear-gradient(to top, #629762,#14aa416c);  
+    /* background-position: right; */
+    /* background-color: #2f3f31; */
+    width: 100%;
+    display: table;
+    /* margin: auto; */
+    /* position: fixed; */
+    /* top: 0; */
+  }
+  .logo-image {
+    width: 8vw;
+    border-radius: 50%;
+    /* left: 1vw; */
+    /* display: table-cell; */
+    /* position: fixed; */
+    /* padding: 4px; */
+    padding-top: 1vh;
+    /* top: 0.5vh; */
+
+  }
+  .logo-title {
+    display: table-cell;
+    /* padding: 10px; */
+    /* position: fixed; */
+    /* top: 1vh;
+    left: 15vw; */
+    color: #1f2c04;
+    font-family: "Lucida Handwriting";
+    font-size: 2.5vw;
+    padding-bottom: 0.5vw;
+    /* width: 40vw; */
+  }
+  .links {
+    display: table-cell;
+    /* float: right; 
+    position: fixed; 
+    top: 2vh;
+    left: 60vw; */
+  }
+  .nav-link {
+    color: #0f0d0d;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 7vw;
+    display: inline-block;
+    text-align: center;
+    border: 2px dotted #000;
+    background: linear-gradient(to top, #d1ebd4, #d0f1d5);
+  }
+  
+  .nav-link-selected {
+    /* background: linear-gradient(to top, #3b9e47, #058018); */
+    border: 4px dotted #4d1919;
+  }
+  .nav-link:hover {
+    background: linear-gradient(to top, #1e241e, #2f3f31);
+    color: white;
+  }
+  
+  .link-span {
+    width: 10vw;
+  }
+
+  .spacer {
+    clear: both;
+  }
+.normal-size {
+  font-size: 1rem;
+}
+
+.yam-container {
+  width: 80vw;
+  margin: auto;
+  display: table;
+  height: auto; 
+  align-items:center;
+}
+
+.yam-image {
+  width: 30%; 
+  height: 20vh; 
+  object-fit: cover;
+}
+  footer {
+    background:   linear-gradient(to top, #629762,#14aa416c);   
+    padding-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1vw;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    color: white;
+    /* background-color: black; */
+  }
+  .footer-link {
+    border-left: 1px solid;
+    padding-right: 0.5vw;
+    margin-left: 0.5vw;
+  }
+  .social-link-image {
+    width: 2vw;
+  }
+  .social-link-image:hover {
+     background-color: white;
+  }
+  .find-us {
+    font-size: 1.2vw;
+  }
+  h2{
+    color: green;
+    font-size: 2vw;
+  }
+
+  .centered-text{
+    text-align: center;
+  }
+  .seventy-per-width{
+    width: 70%;
+    margin: auto;
+  }
+
+
+
+
+  
+  
