@@ -4,6 +4,15 @@ body {
     font-family: Monaco, "Open Sans", sans-serif;
     background-color: #bed4b8c9;
   }
+  .header-image {
+    height: 12vh;
+    background:   linear-gradient(to top, #629762,#14aa416c);  
+    /* background-position: right; */
+    width: 100vw;
+    margin: auto;
+    /* position: fixed; */
+    top: 0;
+  }
   .links {
     float: right; 
     position: fixed; 
@@ -58,15 +67,7 @@ body {
     font-size: 2.5vw;
     /* width: 40vw; */
   }
-  .header-image {
-    height: 12vh;
-    background:   linear-gradient(to top, #629762,#14aa416c);  
-    background-position: right;
-    width: 100vw;
-    margin: auto;
-    /* position: fixed; */
-    top: 0;
-  }
+
   footer {
     background:   linear-gradient(to top, #629762,#14aa416c);   
     padding-top: 0.5em;
