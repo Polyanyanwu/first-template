@@ -1,23 +1,50 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
     font-family: Monaco, "Open Sans", sans-serif;
     background-color: #bed4b8c9;
   }
-  .header-image {
+  .header-area {
     height: 12vh;
     background:   linear-gradient(to top, #629762,#14aa416c);  
     /* background-position: right; */
-    width: 100vw;
-    margin: auto;
+    /* background-color: #2f3f31; */
+    width: 100%;
+    display: table;
+    /* margin: auto; */
     /* position: fixed; */
-    top: 0;
+    /* top: 0; */
+  }
+  .logo-image {
+    width: 8vw;
+    border-radius: 50%;
+    /* left: 1vw; */
+    /* display: table-cell; */
+    /* position: fixed; */
+    /* padding: 4px; */
+    padding-top: 1vh;
+    /* top: 0.5vh; */
+
+  }
+  .logo-title {
+    display: table-cell;
+    /* padding: 10px; */
+    /* position: fixed; */
+    /* top: 1vh;
+    left: 15vw; */
+    color: #1f2c04;
+    font-family: "Lucida Handwriting";
+    font-size: 2.5vw;
+    padding-bottom: 0.5vw;
+    /* width: 40vw; */
   }
   .links {
-    float: right; 
+    display: table-cell;
+    /* float: right; 
     position: fixed; 
     top: 2vh;
-    left: 60vw;
+    left: 60vw; */
   }
   .nav-link {
     color: #0f0d0d;
@@ -45,29 +72,27 @@ body {
   .link-span {
     width: 10vw;
   }
-  .logo-image {
-    width: 8vw;
-    border-radius: 50%;
-    left: 1vw;
-    /* position: fixed; */
-    /* padding: 4px; */
-    top: 0.5vh;
-  }
+
   .spacer {
     clear: both;
   }
-  .logo-title {
-    display: inline-block;
-    /* padding: 10px; */
-    /* position: fixed; */
-    top: 1vh;
-    left: 12vw;
-    color: #1f2c04;
-    font-family: "Lucida Handwriting";
-    font-size: 2.5vw;
-    /* width: 40vw; */
-  }
+.normal-size {
+  font-size: 1rem;
+}
 
+.yam-container {
+  width: 80vw;
+  margin: auto;
+  display: table;
+  height: auto; 
+  align-items:center;
+}
+
+.yam-image {
+  width: 30%; 
+  height: 20vh; 
+  object-fit: cover;
+}
   footer {
     background:   linear-gradient(to top, #629762,#14aa416c);   
     padding-top: 0.5em;
@@ -113,24 +138,8 @@ body {
     margin: auto;
   }
 
-  .yam-image {
-    /* width: 100%; */
-    height: 30vh; 
-  }
 
-  .yam-container {
-    width: 80vw;
-    margin-left: 10vw;
-    display: table;
-    /* height: 50vh; */
-    /* position: absolute; 
-    top: 40vh; */
-  }
-  .yam-div{
-    width: 30%;
-    /* height: 20vh;  */
-    display: table-cell;
-    padding: 5px;
-  }
+
+
   
   
